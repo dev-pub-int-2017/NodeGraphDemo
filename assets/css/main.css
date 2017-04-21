@@ -1,0 +1,33 @@
+body, #add_to_graph div {
+	font-family: arial;
+	padding: 1em;
+}
+
+#social_graph_canvas {
+	width:99%;
+	height:20em;
+	border:2px solid #000;
+}
+
+#social_graph_raw {
+	width:99%;
+	height:auto;
+	border: 2px solid #000;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.node {
+	stroke: #000;
+	stroke-width: 1px;
+}
+
+.link {
+	stroke: #ccc;
+	stroke-width: 1.5px;
+	font-size: 10px;
+}
+
+.link_label {
+	fill: #ccc;
+}

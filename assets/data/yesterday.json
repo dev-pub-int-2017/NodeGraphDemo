@@ -1,0 +1,29 @@
+{
+	"verbs" : [
+		{"id" : 0, "action" : "says hi to"},
+		{"id" : 1, "action" : "pings on slack"},
+		{"id" : 2, "action" : "ignores phone call from"},
+		{"id" : 3, "action" : "laughs at joke told by"},
+		{"id" : 4, "action" : "vomits"}
+	],
+	"nodes" : [
+		{"id" : 0, "name" : "Harlo"},
+		{"id" : 1, "name" : "Jack"},
+		{"id" : 2, "name" : "Crystal"},
+		{"id" : 3, "name" : "Mike"},
+		{"id" : 4, "name" : "Nathan"},
+		{"id" : 5, "name" : "Rose"},
+		{"id" : 6, "name" : "Pepsi"}
+	],
+	"links" : [
+		{"source" : 0, "target" : 1, "verb" : 0, "timestamp" : 1492783108899},
+		{"source" : 0, "target" : 2, "verb" : 3, "timestamp" : 1492783121534},
+		{"source" : 2, "target" : 3, "verb" : 3, "timestamp" : 1492783137483},
+		{"source" : 3, "target" : 0, "verb" : 3, "timestamp" : 1492783150553},
+		{"source" : 0, "target" : 4, "verb" : 2, "timestamp" : 1492783164735},
+		{"source" : 1, "target" : 0, "verb" : 0, "timestamp" : 1492783178381},
+		{"source" : 0, "target" : 3, "verb" : 0, "timestamp" : 1492783253974},
+		{"source" : 4, "target" : 5, "verb" : 1, "timestamp" : 1492784023150},
+		{"source" : 5, "target" : 4, "verb" : 1, "timestamp" : 1492784036404}
+	]
+}

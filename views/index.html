@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Node Graph Demo</title>
+		<link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+		<script src="/assets/js/underscore-min.js"></script>
+		<script src="/assets/js/jquery-3.2.1.min.js"></script>
+		<script src="/assets/js/crossfilter.min.js"></script>
+		<script src="/assets/js/d3.v4.min.js"></script>
+	</head>
+
+	<body>
+		<h1>Let's Make a Social Graph!</h1>
+
+		<svg id="social_graph_canvas"></svg>
+
+		<form id="add_to_graph">
+			<div>
+				<select class="node_selector" id="node_source">
+					<option value="-1">other...</option>
+				</select>
+
+				<select class="edge_selector" id="edge">
+					<option value="-1">other...</option>
+				</select>
+				
+				<select class="node_selector" id="node_to">
+					<option value="-1">other...</option>
+				</select>
+				
+				<input type="button" onclick="mapInteraction();" value="map this interaction!" />
+			</div>
+		</form>
+
+		<div id="social_graph_raw"></div>
+		
+		<script src="/assets/js/social_graph.js"></script>
+	</body>
+</html>
